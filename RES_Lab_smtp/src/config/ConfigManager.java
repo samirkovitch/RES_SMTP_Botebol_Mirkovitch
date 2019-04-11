@@ -14,15 +14,13 @@ public class ConfigManager {
     private List<Person> victims;
     private List<Person> witness;
     private int nbGroups;
-    private String victimRESFile;
     private String configFile;
     private String messageFile;
     private String victimFile;
 
 
 
-public ConfigManager(String victimRESFile, String configFile, String messageFile, String victimFile) throws IOException {
-    this.victimRESFile = victimRESFile;
+public ConfigManager(String configFile, String messageFile, String victimFile) throws IOException {
     this.configFile = configFile;
     this.messageFile = messageFile;
     this.victimFile = victimFile;
@@ -46,7 +44,7 @@ public ConfigManager(String victimRESFile, String configFile, String messageFile
             result.add(individualMessage);
             line = b.readLine();
         }
-        return result; 
+        return result;
     }
 
     private List<Person> loadAddresses(String file) throws IOException {
@@ -70,13 +68,34 @@ public ConfigManager(String victimRESFile, String configFile, String messageFile
         this.port = Integer.parseInt(properties.getProperty("smtpServerPort"));
         this.nbGroups = Integer.parseInt(properties.getProperty("numberOfGroups"));
         this.witness = new ArrayList();
-        String[] witnessAdresses = properties.getProperty("witnessToCC").split(",");
-        for(String address : witnessAdresses){
+        String[] witnessAddresses = properties.getProperty("witnessToCC").split(",");
+        for(String address : witnessAddresses){
             this.witness.add(new Person(address));
         }
     }
+    public List<String> getMessage() {
+        return message;
+    }
 
+    public List<Person> getVictims() {
+        return victims;
+    }
 
+    public List<Person> getWitness() {
+        return witness;
+    }
+
+    public String getSmtpServerAddress() {
+        return smtpServerAddress;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public int getNbGroups() {
+        return nbGroups;
+    }
 }
 
 
