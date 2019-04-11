@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b09af5e-a258-496d-9edb-03a3536084b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/test_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/smtp/test_classe2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ConfigManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,29 +18,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/config/ConfigManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="270">
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#969#977#0" expanded="true" />
+                <element signature="e#1085#1093#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/test_class.java">
+        <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/smtp/test_classe2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -73,10 +91,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="732" />
-    <option name="y" value="29" />
-    <option name="width" value="780" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="911" />
+    <option name="y" value="54" />
+    <option name="width" value="1052" />
     <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -107,6 +125,38 @@
               <item name="RES_Lab_smtp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RES_Lab_smtp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RES_Lab_smtp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RES_Lab_smtp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RES_Lab_smtp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RES_Lab_smtp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RES_Lab_smtp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RES_Lab_smtp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RES_Lab_smtp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="prank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RES_Lab_smtp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RES_Lab_smtp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="smtp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +170,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -147,22 +198,22 @@
       <option name="presentableId" value="Default" />
       <updated>1554712730278</updated>
       <workItem from="1554712732146" duration="865000" />
-      <workItem from="1554964509247" duration="1789000" />
+      <workItem from="1554964509247" duration="6906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2654000" />
+    <option name="totallyTimeSpent" value="7771000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1600" height="824" extended-state="6" />
+    <frame x="911" y="54" width="1052" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7410072" visible="true" weight="0.17310168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7409551" visible="true" weight="0.09741551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.2589928" side_tool="true" visible="true" weight="0.17310168" />
+      <window_info id="Favorites" order="4" sideWeight="0.25904486" side_tool="true" visible="true" weight="0.09741551" />
       <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -211,13 +262,6 @@
     <entry file="file://$PROJECT_DIR$/Config/victims.utf8">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/ConfigManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/test_class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -227,8 +271,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/smtp/test_classe2.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#969#977#0" expanded="true" />
+            <element signature="e#1085#1093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
