@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b09af5e-a258-496d-9edb-03a3536084b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/victims.utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/mail/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/mail/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/mail/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/mail/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/prank/Prank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/prank/Prank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smtp/test_classe2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smtp/SmtpClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,15 +22,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config/ConfigManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="519">
               <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#969#977#0" expanded="true" />
-                <element signature="e#1085#1093#0" expanded="true" />
                 <element signature="e#2623#2624#0" expanded="true" />
                 <element signature="e#2653#2654#0" expanded="true" />
                 <element signature="e#2693#2694#0" expanded="true" />
@@ -47,31 +48,70 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/prank/Prank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/model/prank/PrankGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="60" column="42" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smtp/test_classe2.java">
+        <entry file="file://$PROJECT_DIR$/src/smtp/SmtpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/mail/Group.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#141#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/mail/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#164#172#0" expanded="true" />
+                <element signature="e#219#227#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,6 +133,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/config/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/smtp/SmtpClient.java" />
+        <option value="$PROJECT_DIR$/src/model/mail/Message.java" />
+        <option value="$PROJECT_DIR$/src/model/mail/Group.java" />
+        <option value="$PROJECT_DIR$/src/model/prank/Prank.java" />
       </list>
     </option>
   </component>
@@ -104,8 +148,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="494" />
-    <option name="y" value="54" />
+    <option name="x" value="247" />
+    <option name="y" value="29" />
     <option name="width" value="1052" />
     <option name="height" value="820" />
   </component>
@@ -115,6 +159,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,8 +219,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,23 +254,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554712730278</updated>
       <workItem from="1554712732146" duration="865000" />
-      <workItem from="1554964509247" duration="7587000" />
+      <workItem from="1554964509247" duration="9860000" />
+      <workItem from="1555070440922" duration="1685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8452000" />
+    <option name="totallyTimeSpent" value="12410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="494" y="54" width="1052" height="820" extended-state="0" />
+    <frame x="247" y="29" width="1052" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7409551" visible="true" weight="0.2475149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7409551" visible="true" weight="0.24254473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" sideWeight="0.25904486" side_tool="true" visible="true" weight="0.2475149" />
-      <window_info anchor="bottom" id="SBT Console" />
+      <window_info id="Favorites" order="4" sideWeight="0.25904486" side_tool="true" weight="0.029821074" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -239,6 +283,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="SBT Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -255,13 +300,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test_java.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test_java.java" />
     <entry file="file://$PROJECT_DIR$/Config/config.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -271,52 +310,63 @@
     <entry file="file://$PROJECT_DIR$/Config/victims.RES.utf8">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/victims.utf8">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/test_class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/smtp/test_classe2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/victims.utf8" />
+    <entry file="file://$PROJECT_DIR$/src/model/test_class.java" />
     <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/mail/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#141#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/smtp/SmtpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/prank/Prank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/mail/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#172#0" expanded="true" />
+            <element signature="e#219#227#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config/ConfigManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="519">
           <caret line="87" column="42" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#969#977#0" expanded="true" />
-            <element signature="e#1085#1093#0" expanded="true" />
             <element signature="e#2623#2624#0" expanded="true" />
             <element signature="e#2653#2654#0" expanded="true" />
             <element signature="e#2693#2694#0" expanded="true" />
@@ -328,6 +378,23 @@
             <element signature="e#2932#2933#0" expanded="true" />
             <element signature="e#2964#2965#0" expanded="true" />
             <element signature="e#2995#2996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/prank/PrankGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="60" column="42" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

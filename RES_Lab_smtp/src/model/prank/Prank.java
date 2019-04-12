@@ -4,7 +4,6 @@ import model.mail.Person;
 import model.mail.Message;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class Prank {
     private Person victimSender;
@@ -51,21 +50,17 @@ public class Prank {
 
         message.setFrom(victimSender.getAddresseMail());
 
-        // A EXPLIQUER CAR PEU CLAIR
-        String[] to = victimRecipients
-                .stream()
-                .map(p -> p.getAddresseMail())
-                .collect(Collectors.toList())
-                .toArray(new String[] {});
+        List<String> to = new ArrayList();
+        for(Person p : victimRecipients){
+            to.add(p.getAddresseMail());
+        }
         message.setTo(to);
 
-        // A EXPLIQUER CAR PEU CLAIR
-        String[] cc = witnessRecipients
-                .stream()
-                .map(p -> p.getAddresseMail())
-                .collect(Collectors.toList())
-                .toArray(new String[] {});
-        message.setCc(cc);
+        List<String> cc = new ArrayList();
+        for(Person p : witnessRecipients){
+            cc.add(p.getAddresseMail());
+        }
+        message.setCc(to);
 
         return message;
     }

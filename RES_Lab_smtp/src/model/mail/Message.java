@@ -1,22 +1,17 @@
 package model.mail;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Message {
     private String from;
-    private String[] to = new String[0];
-    private String[] cc = new String[0];
+    private List<String> to = new ArrayList<String>();
+    private List<String> cc = new ArrayList<String>();
     private String subject;
     private String body;
 
     public void setFrom(String from) {
         this.from = from;
-    }
-
-    public void setTo(String[] to) {
-        this.to = to;
-    }
-
-    public void setCc(String[] cc) {
-        this.cc = cc;
     }
 
     public void setSubject(String subject) {
@@ -27,17 +22,17 @@ public class Message {
         this.body = body;
     }
 
+    public void setCc(List<String> cc) {this.cc = cc;}
+
+    public void setTo(List<String> to) {this.to = to;}
+
     public String getFrom() {
         return from;
     }
 
-    public String[] getTo() {
-        return to;
-    }
+    public List<String> getCc() {return cc;}
 
-    public String[] getCc() {
-        return cc;
-    }
+    public List<String> getTo() {return to;}
 
     public String getSubject() {
         return subject;
