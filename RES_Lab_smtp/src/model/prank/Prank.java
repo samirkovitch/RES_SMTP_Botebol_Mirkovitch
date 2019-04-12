@@ -46,8 +46,11 @@ public class Prank {
     public Message generateMAilMessage(){
         Message message = new Message();
 
-        message.setBody(this.message + "\r\n" + victimSender.getFirstName());
-
+        if(victimSender.getFirstName() != null) {
+            message.setBody(this.message + "\r\n" + victimSender.getFirstName());
+        }else{
+            message.setBody(this.message + "\r\n le Blagueur");
+        }
         message.setFrom(victimSender.getAddresseMail());
 
         List<String> to = new ArrayList();

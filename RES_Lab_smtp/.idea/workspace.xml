@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b09af5e-a258-496d-9edb-03a3536084b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PrankBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Config/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Config/messages.utf8" beforeDir="false" afterPath="$PROJECT_DIR$/Config/messages.utf8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/victims.RES.utf8" beforeDir="false" afterPath="$PROJECT_DIR$/Config/victims.RES.utf8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrankBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrankBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/prank/Prank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/prank/Prank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/prank/PrankGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/prank/PrankGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/smtp/SmtpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smtp/SmtpClient.java" afterDir="false" />
@@ -50,6 +47,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Config/config.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -59,10 +65,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Config/messages.utf8">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/smtp/SmtpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="52" column="94" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
+            <state relative-caret-position="137">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,10 +86,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/mail/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#164#172#0" expanded="true" />
+                <element signature="e#219#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrankBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="225">
+              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/prank/PrankGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+            <state relative-caret-position="156">
+              <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#740#747#0" expanded="true" />
@@ -99,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/prank/Prank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="10" column="72" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="72" />
+            <state relative-caret-position="300">
+              <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#244#252#0" expanded="true" />
@@ -148,12 +177,12 @@
         <option value="$PROJECT_DIR$/src/model/mail/Message.java" />
         <option value="$PROJECT_DIR$/src/model/mail/Group.java" />
         <option value="$PROJECT_DIR$/Config/victims.RES.utf8" />
-        <option value="$PROJECT_DIR$/Config/messages.utf8" />
-        <option value="$PROJECT_DIR$/src/model/prank/Prank.java" />
         <option value="$PROJECT_DIR$/Config/config.properties" />
         <option value="$PROJECT_DIR$/src/PrankBot.java" />
         <option value="$PROJECT_DIR$/src/model/prank/PrankGenerator.java" />
         <option value="$PROJECT_DIR$/src/smtp/SmtpClient.java" />
+        <option value="$PROJECT_DIR$/src/model/prank/Prank.java" />
+        <option value="$PROJECT_DIR$/Config/messages.utf8" />
       </list>
     </option>
   </component>
@@ -286,12 +315,12 @@
       <updated>1554712730278</updated>
       <workItem from="1554712732146" duration="865000" />
       <workItem from="1554964509247" duration="9860000" />
-      <workItem from="1555070440922" duration="7264000" />
+      <workItem from="1555070440922" duration="9029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17989000" />
+    <option name="totallyTimeSpent" value="19754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-38" y="29" width="1283" height="820" extended-state="0" />
@@ -343,32 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Config/messages.utf8">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/mail/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#164#172#0" expanded="true" />
-            <element signature="e#219#227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config/ConfigManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -399,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/mail/Group.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -417,22 +413,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/prank/Prank.java">
+    <entry file="file://$PROJECT_DIR$/src/smtp/SmtpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="10" column="72" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="72" />
+        <state relative-caret-position="137">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#252#0" expanded="true" />
-            <element signature="e#320#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrankBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="225">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -441,8 +435,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/prank/PrankGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        <state relative-caret-position="156">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#740#747#0" expanded="true" />
@@ -451,13 +445,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/smtp/SmtpClient.java">
+    <entry file="file://$PROJECT_DIR$/src/model/mail/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="52" column="94" selection-start-line="52" selection-start-column="94" selection-end-line="52" selection-end-column="94" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#164#172#0" expanded="true" />
+            <element signature="e#219#227#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/mail/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/prank/Prank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#252#0" expanded="true" />
+            <element signature="e#320#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/messages.utf8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>

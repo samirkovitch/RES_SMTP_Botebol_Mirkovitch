@@ -22,6 +22,7 @@ public class PrankBot {
         PrankGenerator pg = new PrankGenerator(cm);
         SmtpClient sc = new SmtpClient(cm.getSmtpServerAddress(), cm.getPort());
         List<Prank> lp = pg.generatePranks();
+        System.out.println("number of pranks : " + lp.size());
         for (Prank p : lp){
             try {
                 sc.sendMessage(p.generateMAilMessage());

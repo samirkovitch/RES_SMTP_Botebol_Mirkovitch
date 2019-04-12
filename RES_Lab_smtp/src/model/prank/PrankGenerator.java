@@ -62,7 +62,6 @@ public class PrankGenerator {
 
             List<Person> victims = groups.get(i).getMembers();
             Collections.shuffle(victims);
-            System.out.println("victim.size : " + victims.size());
 
             Person sender = victims.remove(0);
             prank.setVictimSender(sender);

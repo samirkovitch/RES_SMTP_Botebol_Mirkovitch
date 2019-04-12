@@ -50,7 +50,7 @@ public class SmtpClient {
 
         writer.printf("From : %s\r\n",message.getFrom());
         writer.printf("To : %s\r\n", message.getTo().get(0));
-        writer.printf("Subject : fr--%s to--%s\r\n", message.getFrom(), message.getTo().get(0));
+        writer.printf("Subject : fr--%s to--%s\r\n\r\n", message.getFrom(), message.getTo().get(0));
         writer.printf("%s", message.getBody());
         writer.printf("\r\n.\r\n");
         line = reader.readLine();
