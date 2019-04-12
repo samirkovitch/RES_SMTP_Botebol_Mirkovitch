@@ -19,9 +19,9 @@ public class PrankGenerator {
     }
 
     public List<Group> generateGroups(List<Person> victims, int numGroups){
-        List<Person> correctVictims = new ArrayList<>();
+        List<Person> correctVictims = victims;
         Collections.shuffle(correctVictims);
-        List<Group> groups = new ArrayList<>();
+        List<Group> groups = new ArrayList<Group>();
         int turn = 0;
         Group target;
 
@@ -41,7 +41,7 @@ public class PrankGenerator {
     }
 
     public List<Prank> generatePranks(){
-        List<Prank> pranks = new ArrayList<>();
+        List<Prank> pranks = new ArrayList<Prank>();
         List<String> msgs = configManager.getMessage();
         int msgIndex = 0;
         int numGroups = configManager.getNbGroups();
@@ -62,6 +62,8 @@ public class PrankGenerator {
 
             List<Person> victims = groups.get(i).getMembers();
             Collections.shuffle(victims);
+            System.out.println("victim.size : " + victims.size());
+
             Person sender = victims.remove(0);
             prank.setVictimSender(sender);
             prank.addVictimRecipient(victims);

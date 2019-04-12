@@ -7,8 +7,8 @@ import java.util.List;
 
 public class Prank {
     private Person victimSender;
-    private final List<Person> victimRecipients = new ArrayList<>();
-    private final List<Person> witnessRecipients = new ArrayList<>();
+    private final List<Person> victimRecipients = new ArrayList<Person>();
+    private final List<Person> witnessRecipients = new ArrayList<Person>();
     private String message;
 
     public void setVictimSender(Person victimSender) {
