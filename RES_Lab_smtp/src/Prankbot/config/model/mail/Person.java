@@ -1,4 +1,4 @@
-package model.mail;
+package Prankbot.config.model.mail;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

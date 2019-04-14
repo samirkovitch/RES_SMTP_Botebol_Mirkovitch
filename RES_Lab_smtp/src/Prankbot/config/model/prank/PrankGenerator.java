@@ -1,11 +1,10 @@
-package model.prank;
+package Prankbot.config.model.prank;
 
-import config.ConfigManager;
-import model.mail.Group;
-import model.mail.Person;
+import Prankbot.config.Config.ConfigManager;
+import Prankbot.config.model.mail.Group;
+import Prankbot.config.model.mail.Person;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.logging.Logger;

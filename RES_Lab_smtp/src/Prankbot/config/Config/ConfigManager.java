@@ -1,11 +1,11 @@
-package config;
+package Prankbot.config.Config;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import model.mail.Person;
+import Prankbot.config.model.mail.Person;
 
 public class ConfigManager {
     private String smtpServerAddress;

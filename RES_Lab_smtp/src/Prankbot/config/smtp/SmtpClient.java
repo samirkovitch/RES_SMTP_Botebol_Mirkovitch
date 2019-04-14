@@ -1,10 +1,9 @@
-package smtp;
+package Prankbot.config.smtp;
 
-import model.mail.Message;
+import Prankbot.config.model.mail.Message;
 
 import java.io.*;
 import java.net.Socket;
-import java.util.logging.Logger;
 
 public class SmtpClient {
     private String smtpServerAddress;
