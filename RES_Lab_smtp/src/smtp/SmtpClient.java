@@ -35,10 +35,12 @@ public class SmtpClient {
             line = reader.readLine();
             System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
         }
-        writer.printf("RCPT TO:<%s>\r\n", message.getTo().get(0));
-        while (!(line.startsWith("250 "))){
-            line = reader.readLine();
-            System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
+        for(String victime : message.getTo()) {
+            writer.printf("RCPT TO:<%s>\r\n", message.getTo().get(0));
+            while (!(line.startsWith("250 "))) {
+                line = reader.readLine();
+                System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
+            }
         }
         writer.printf("DATA\r\n");
         System.out.println("MOCKMOCK SERVER INDIQUE : " + line);

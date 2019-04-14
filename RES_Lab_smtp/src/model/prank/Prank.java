@@ -49,8 +49,9 @@ public class Prank {
         if(victimSender.getFirstName() != null) {
             message.setBody(this.message + "\r\n" + victimSender.getFirstName());
         }else{
-            message.setBody(this.message + "\r\n le Blagueur");
+            message.setBody(this.message);
         }
+
         message.setFrom(victimSender.getAddresseMail());
 
         List<String> to = new ArrayList();
