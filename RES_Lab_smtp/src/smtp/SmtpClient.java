@@ -24,40 +24,38 @@ public class SmtpClient {
         writer = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "UTF-8"), true);
         reader = new BufferedReader(new InputStreamReader(socket.getInputStream(), "UTF-8"));
         String line = reader.readLine();
-        System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
         writer.printf("EHLO localhost\r\n");
         while (line.startsWith("250-")){
             line = reader.readLine();
-            System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
         }
         writer.printf("MAIL FROM:<%s>\r\n", message.getFrom());
         while (!(line.startsWith("250 "))){
             line = reader.readLine();
-            System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
         }
-        for(String victime : message.getTo()) {
-            writer.printf("RCPT TO:<%s>\r\n", message.getTo().get(0));
+
+        String victimlist = message.getTo().toString();
+        victimlist = victimlist.replace("]", "");
+        victimlist = victimlist.replace("[", "");
+        String witnesslist = message.getCc().toString();
+        witnesslist = witnesslist.replace("]", "");
+        witnesslist = witnesslist.replace("[", "");
+        writer.printf("RCPT TO: %s, %s\r\n", victimlist, witnesslist);
             while (!(line.startsWith("250 "))) {
                 line = reader.readLine();
-                System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
             }
-        }
+
         writer.printf("DATA\r\n");
-        System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
         while (!line.startsWith("354 ")){
-            System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
             line = reader.readLine();
-            System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
         }
 
         writer.printf("From : %s\r\n",message.getFrom());
-        writer.printf("To : %s\r\n", message.getTo().get(0));
-        writer.printf("Subject : fr--%s to--%s\r\n\r\n", message.getFrom(), message.getTo().get(0));
+        writer.printf("To : %s\r\n", victimlist);
+        writer.printf("Cc : %s\r\n", witnesslist);
+        writer.printf("Subject : %s\r\n\r\n", message.getSubject());
         writer.printf("%s", message.getBody());
         writer.printf("\r\n.\r\n");
         line = reader.readLine();
-        System.out.println("MOCKMOCK SERVER INDIQUE : " + line);
-        System.out.println("mail send");
     }
 }
 

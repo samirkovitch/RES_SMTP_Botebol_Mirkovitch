@@ -64,7 +64,8 @@ public class Prank {
         for(Person p : witnessRecipients){
             cc.add(p.getAddresseMail());
         }
-        message.setCc(to);
+        message.setCc(cc);
+        message.setSubject("Prank");
 
         return message;
     }
