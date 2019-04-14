@@ -6,6 +6,51 @@ The main goal of this project is to be able to send forged e-mails thanks to our
 
 ## Instructions for setting up a mock SMTP server (with Docker) : 
 
+
+
+Ici simon
+
+Ici simon
+
+
+
+Ici simon
+
+Ici simon
+
+Ici simon
+Ici simon
+
+
+Ici simon
+
+Ici simon
+
+Ici simon
+
+Ici simon
+
+Ici simon
+
+
+
+Ici simon
+Ici simon
+
+
+
+Ici simon
+Ici simon
+
+Ici simon
+
+Ici simon
+
+
+
+Ici simon
+Ici simon
+
 ## How to :
 In order tu run a prank campain, you have set up a few files :
 * In **Config/config.properties** you should fill up the different fields ; witnessToCC isn't mandatory, and number of group should be at least a third fo the number of address you want to prank.
