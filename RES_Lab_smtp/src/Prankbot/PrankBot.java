@@ -1,9 +1,9 @@
-package Prankbot.config;
+package Prankbot;
 
-import Prankbot.config.Config.ConfigManager;
-import Prankbot.config.model.prank.Prank;
-import Prankbot.config.model.prank.PrankGenerator;
-import Prankbot.config.smtp.SmtpClient;
+import Prankbot.Config.ConfigManager;
+import Prankbot.model.prank.Prank;
+import Prankbot.model.prank.PrankGenerator;
+import Prankbot.smtp.SmtpClient;
 
 import java.io.IOException;
 import java.util.List;

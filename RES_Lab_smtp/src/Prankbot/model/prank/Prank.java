@@ -1,7 +1,7 @@
-package Prankbot.config.model.prank;
+package Prankbot.model.prank;
 
-import Prankbot.config.model.mail.Person;
-import Prankbot.config.model.mail.Message;
+import Prankbot.model.mail.Person;
+import Prankbot.model.mail.Message;
 import java.util.ArrayList;
 import java.util.List;
 

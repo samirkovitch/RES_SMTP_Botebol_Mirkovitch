@@ -1,4 +1,4 @@
-package Prankbot.config.model.mail;
+package Prankbot.model.mail;
 
 import java.util.ArrayList;
 import java.util.List;

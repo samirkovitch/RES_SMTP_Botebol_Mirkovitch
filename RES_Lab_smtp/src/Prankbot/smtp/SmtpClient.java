@@ -1,6 +1,6 @@
-package Prankbot.config.smtp;
+package Prankbot.smtp;
 
-import Prankbot.config.model.mail.Message;
+import Prankbot.model.mail.Message;
 
 import java.io.*;
 import java.net.Socket;
