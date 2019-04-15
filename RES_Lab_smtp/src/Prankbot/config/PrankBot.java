@@ -12,7 +12,7 @@ public class PrankBot {
 
     public static void main(String[] args) {
         String path = "Config/";
-        String cp = path + "Prankbot.config.properties";
+        String cp = path + "config.properties";
         String msg = path + "messages.utf8";
         String vctm = path + "victims.RES.utf8";
         ConfigManager cm = null;
