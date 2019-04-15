@@ -6,9 +6,12 @@ The main goal of this project is to be able to send forged e-mails thanks to our
 
 ## Instructions for setting up a mock SMTP server (with Docker) : 
 
-This bot use the MockMock SMTP server (https://github.com/tweakers/MockMock). To have it with docker, a dockerfile is needed. One can be find here https://github.com/robinong79/docker-mockmock/blob/master/dockerfile to set up the dockerfile.
+Make sure you have docker installed.
 
-To run the container, you need to select the 2 ports : **docker run -p 25:25 -p 8282:8282 mockmock**. The server's access is done with the default IP of docker : 192.168.99.100.
+Go to the docker repository, and use the following command : ```docker build -t mockmock .```
+
+To run the container, you need to select the 2 ports : ```docker run -p 25:25 -p 8282:8282 mockmock```. 
+The server's access on windows is done with the default IP of docker : 192.168.99.100. On linux, it's 127.0.0.1.
 
 ## How to :
 In order tu run a prank campain, you have set up a few files :
